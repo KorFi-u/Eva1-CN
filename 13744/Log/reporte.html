@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Galería - Máquina Eva1</title>
+  <style>
+    body {font-family: Arial, sans-serif; background-color: #0f1724; color: #e6eef6; margin: 0; padding: 20px;}
+    h1 {color: #7dd3fc;}
+    p {max-width: 800px; line-height: 1.5;}
+    .gallery {display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; margin-top: 20px;}
+    .gallery div {background: rgba(255,255,255,0.02); border: 1px dashed rgba(125,211,252,0.3); height: 150px; display: flex; align-items: center; justify-content: center; color: #94a3b8;}
+    footer {margin-top: 20px; color: #94a3b8; font-size: 0.9rem;}
+    @media (max-width: 640px) { .gallery {grid-template-columns: repeat(1, 1fr);} }
+  </style>
+</head>
+<body>
+  <h1>Galería de la Máquina Eva1</h1>
+  <p>Creamos una máquina de Azure, siguiendo los pasos, donde en un principio nos dio errores de incompatibilidad de región. Luego de unos cuantos intentos logramos crear la máquina y pudimos iniciar en el CMD de Windows, en el cual también nos dio un pequeño error con la ruta de la key. Luego de iniciar en la máquina instalamos y actualizamos: Apache2, y Git. Luego creamos el HTML correspondiente y lo añadimos en el repositorio de GitHub, luego lo cargamos en la máquina utilizando Git. Luego activamos el puerto 80 llamado "xd" con el protocolo TCP. Y por último iniciamos la página por la IP.</p>
+
+  <div class="gallery">
+  <div><img src="1.png" alt="Imagen 1"></div>
+  <div><img src="2.png" alt="Imagen 2"></div>
+  <div><img src="3.png" alt="Imagen 3"></div>
+  <div><img src="4.png" alt="Imagen 4"></div>
+  <div><img src="5.png" alt="Imagen 5"></div>
+  <div><img src="6.png" alt="Imagen 6"></div>
+  <div><img src="7.png" alt="Imagen 7"></div>
+  <div><img src="8.png" alt="Imagen 8"></div>
+  <div><img src="9.png" alt="Imagen 9"></div>
+</div>
+
+
+  <footer>Galería generada automáticamente — Máquina Eva1</footer>
+</body>
+</html>
